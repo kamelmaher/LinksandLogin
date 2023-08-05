@@ -1,0 +1,38 @@
+body {
+    background-color: darkslateblue;
+    padding: 0;
+    margin: 0;
+}
+.log-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+nav {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav li.active {
+    color: red;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 107px);
+    color: white;
+    flex-direction: column;
+}
